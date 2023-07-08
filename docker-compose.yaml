@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./deploy/docker/api/Dockerfile
+    image: api
+    ports:
+      - 8000:3000
+    volumes:
+      - ./src:/app/src
