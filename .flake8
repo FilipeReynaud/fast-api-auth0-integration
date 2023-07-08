@@ -1,0 +1,18 @@
+[flake8]
+exclude =
+  # No need to traverse our git dir
+  .git,
+  # No need to add python cache files
+  __pycache__,
+ignore =
+  # Indentation is not a multiple of four
+  E111,E114
+  # Continuation line under-indented for hanging indent
+  E121,E125,E131
+  # visually indented line with same indent as next logical line
+  E129
+  # line break before binary operator
+  W503
+  # perform function calls in argument defaults
+  B008
+max-line-length=120
