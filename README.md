@@ -31,7 +31,7 @@ AUTH0_CLIENT_SECRET=
 3. Install dependencies: `make install-deps`.
 4. Run locally: `make local-run`.
 
-### Run application with containers locall
+### Run application with containers locally
 
 1. Start the containers: `make run`.
 2. Stop the containers: `make down`.
